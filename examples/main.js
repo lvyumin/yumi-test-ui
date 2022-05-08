@@ -1,11 +1,12 @@
 import Vue from 'vue'
 // 全局引入
-import yumiUi from '../packages';
-Vue.use(yumiUi)
+// import yumiUi from '../packages';
+// Vue.use(yumiUi)
 
 // 局部引入
-// import { ymLink } from '../packages';
-// Vue.use(ymLink)
+import { ymLink, ymHeader } from '../packages';
+Vue.use(ymLink)
+Vue.use(ymHeader)
 
 // cdn 引入
 // import { ymLink } from '../lib/index.umd.min.js';
